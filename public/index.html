@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Sign up form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="grid cols-3">
+            <div class="image_side">
+                <div class="logo_container">
+                    <img src="../assets/images/odin-lined.png"width="80px" class="site-logo">
+                    <h1>ODIN</h1>
+                </div>
+                <span class="copyright poppins-light">Photo by <a href="https://unsplash.com/fr/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></span>
+            </div>
+            <div class="content_side">
+                <div class="wrapper">
+                    <div class="content_side_header_container">
+                    <h2 class="poppins-semibold">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</h2>
+                    <h2 class="poppins-semibold"><i>You know you want to.</i></h2>  
+                    </div>
+                    
+                    <div class="form_container">
+                        <form action="" method="post">
+                            <div class="fields_container">
+                                <h3 class="form_title">Let's do this !</h3>
+                                <!-- Row 1 -->
+                                <div class="form_row">
+                                    <div class="form_field">
+                                        <label for="first_name">First name</label>
+                                        <input type="text" id="first_name">
+                                    </div>
+                                    <div class="form_field">
+                                        <label for="last_name">Last name</label>
+                                        <input type="text" id="last_name">
+                                    </div>
+                                </div>
+                                <!-- Row 2 -->
+                                <div class="form_row">
+                                    <div class="form_field">
+                                        <label for="email">Email</label>
+                                        <input type="email" id="email">
+                                    </div>
+                                    <div class="form_field">
+                                        <label for="phone_number">Phone number</label>
+                                        <input type="tel" id="phone_number">
+                                    </div>
+                                </div>
+                                <!-- Row 3 -->
+                                <div class="form_row">
+                                    <div class="form_field">
+                                        <label for="password">Password</label>
+                                        <input type="password" minlength="8" maxlength="20" id="password">
+                                    </div>
+                                    <div class="form_field">
+                                        <label for="confirm_password">Confirm password</label>
+                                        <input type="password" minlength="8" maxlength="20" id="confirm_password">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_footer">
+                                <input type="submit" value="Create account" id="create_account_btn">
+                                <span>Already have an account ? <a href="">Log in</a></span>
+                            </div>
+                            
+                        </form>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
